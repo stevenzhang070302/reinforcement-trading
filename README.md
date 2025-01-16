@@ -1,6 +1,6 @@
 # **AI Trading Agent**
 
-A simple AI trading agent using Alpaca Markets and Reinforcement Learning (RL). The agent is designed to make trading decisions based on market data, leveraging advanced algorithms and innovative methodologies to improve profitability and robustness.
+A simple AI trading agent using Alpaca Markets and Reinforcement Learning (RL). The agent is designed to make trading decisions based on market data, leveraging advanced algorithms and innovative methodologies to improve profitability and robustness. Recently, I saw a XiaoHongShu post on how he was able to use Reinforcement Learning to make profitable trades going from 90k to 110kish in portfolio value. That reignited my interest in Algorithmic Trading or AI Trading so here we are trying this project. 
 
 ---
 
@@ -12,17 +12,18 @@ This project combines reinforcement learning, real-time data, and AI techniques 
 
 ## **Progress**
 
-### **1. Reinforcement Learning Agent**
+### **Current Status**
+#### **1. Reinforcement Learning Agent**
 - **Environment**: Custom trading environment developed with `gym`.
 - **Current Model**: PPO (Proximal Policy Optimization) with action space [Buy, Sell, Hold].
 - **Reward Function**: Recently optimized for harsher penalties and profit amplification.
 - **Training**: ~500k timesteps completed. Further steps include improving reward scaling and training longer with better metrics tracking.
 
-### **2. Data Pipeline**
+#### **2. Data Pipeline**
 - **Historical Data**: Leveraging cleaned and feature-rich datasets with key indicators such as RSI, MACD, Bollinger Bands, etc.
 - **Live Data**: Integration with Alpaca for real-time market feeds in progress.
 
-### **3. Backtesting**
+#### **3. Backtesting**
 - **Results**: Current agent achieves minor gains but struggles with sustained profitability (reward mean capped around 0).
 - **Planned Improvements**: Focused on refining the reward function, improving the model, and testing longer time horizons.
 
@@ -30,7 +31,7 @@ This project combines reinforcement learning, real-time data, and AI techniques 
 
 ## **What's Next**
 
-### **Immediate Goals**
+### **Next Steps**
 1. **Achieving Profitability**:
    - Refine the RL model to break past the reward mean plateau.
    - Experiment with alternative RL algorithms such as:
@@ -38,6 +39,7 @@ This project combines reinforcement learning, real-time data, and AI techniques 
      - TD3 (Twin Delayed Deep Deterministic Policy Gradient)
      - Rainbow DQN (if sticking to discrete actions).
    - Conduct systematic hyperparameter tuning using tools like Optuna or Ray Tune.
+   - Experiment with different machine learning models for feature extraction and prediction.
 
 2. **Real-Time Data Stream**:
    - Set up a live data pipeline using Alpaca’s API for paper trading.
@@ -46,24 +48,16 @@ This project combines reinforcement learning, real-time data, and AI techniques 
 3. **Dashboard UI**:
    - Create a real-time dashboard to monitor trades, portfolio performance, and key metrics.
 
-### **Mid-Term Goals**
-1. **Continuous Training**:
+4. **Continuous Training**:
    - Implement online learning to allow the model to adapt to new data dynamically.
    - Incorporate Bayesian methods to leverage priors from current batches to predict future trends.
 
-2. **Incorporate RAG and Sentiment Analysis**:
+5. **Incorporate RAG and Sentiment Analysis**:
    - Experiment with retrieval-augmented generation (RAG) for integrating external market data.
    - Use sentiment analysis from news and social media to inform trading decisions.
 
-3. **Advanced Models**:
+6. **Advanced Models**:
    - Explore time-series-compatible large language models (LLMs) or custom-built LLMs tailored for trading.
    - Investigate hybrid approaches combining time-series models with reinforcement learning agents.
-
----
-
-## **Future Aspirations**
-- Transition from paper trading to live trading on Alpaca Markets.
-- Develop ensemble models for robustness across various market conditions.
-- Open-source the project for community contributions and enhancements.
 
 ---
