@@ -1,6 +1,6 @@
 # **AI Trading Agent**
 
-A simple AI trading agent using Alpaca Markets and Reinforcement Learning (RL). The agent is designed to make trading decisions based on market data, leveraging advanced algorithms and innovative methodologies to improve profitability and robustness. Recently, I saw a XiaoHongShu post on how he was able to use Reinforcement Learning to make profitable trades going from 90k to 110kish in portfolio value. That reignited my interest in Algorithmic Trading or AI Trading so here we are trying this project. 
+A simple AI trading agent using Alpaca Markets and Reinforcement Learning (RL). The agent is designed to make trading decisions based on market data, leveraging advanced algorithms and innovative methodologies to improve profitability and robustness. Recently, I saw a XiaoHongShu post on how someone was able to use Reinforcement Learning to make profitable trades, growing their portfolio from 90k to 110k. This reignited my interest in Algorithmic Trading and AI Trading, leading me to start this project.
 
 ---
 
@@ -24,7 +24,13 @@ This project combines reinforcement learning, real-time data, and AI techniques 
 - **Live Data**: Integration with Alpaca for real-time market feeds in progress.
 
 #### **3. Backtesting**
-- **Results**: Current agent achieves minor gains but struggles with sustained profitability (reward mean capped around 0).
+- **Results**:
+  - **Initial Balance**: $10,000  
+  - **Final Portfolio Value**: $10,532.57  
+  - **Percentage Change**: +5.33%  
+  - **Observation**: While profitability was achieved, there is room for improvement in sustained performance. The agent is currently stuck at a reward mean of ~0.001, indicating a need for further model refinement. In addition, this is only the backtest - more aggressive improvements are needed to ensure profitability in live trading.
+  - Backtest results saved to `backtest_results.csv`.
+
 - **Planned Improvements**: Focused on refining the reward function, improving the model, and testing longer time horizons.
 
 ---
