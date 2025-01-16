@@ -1,0 +1,7 @@
+alpaca-trade-api
+pandas
+numpy
+stable-baselines3
+gym
+PyYAML
+tensorboard

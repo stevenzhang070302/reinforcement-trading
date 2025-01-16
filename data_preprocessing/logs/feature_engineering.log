@@ -1,0 +1,24 @@
+2025-01-15 11:34:37,282:ERROR:Raw data file data_ingestion/AAPL_day_raw.csv not found.
+2025-01-15 11:34:37,283:ERROR:Feature engineering failed: Raw data file data_ingestion/AAPL_day_raw.csv not found.
+2025-01-15 11:35:20,669:ERROR:Raw data file ../data_ingestion/data_preprocessed/AAPL_day_raw.csv not found.
+2025-01-15 11:35:20,669:ERROR:Feature engineering failed: Raw data file ../data_ingestion/data_preprocessed/AAPL_day_raw.csv not found.
+2025-01-15 11:35:53,930:ERROR:Raw data file data_ingestion/data_preprocessed/AAPL_day_raw.csv not found.
+2025-01-15 11:35:53,930:ERROR:Feature engineering failed: Raw data file data_ingestion/data_preprocessed/AAPL_day_raw.csv not found.
+2025-01-15 11:36:12,407:ERROR:Raw data file data_ingestion/data_preprocessed/AAPL_day.csv not found.
+2025-01-15 11:36:12,407:ERROR:Feature engineering failed: Raw data file data_ingestion/data_preprocessed/AAPL_day.csv not found.
+2025-01-15 11:36:19,315:INFO:Loaded data from ../data_ingestion/data_preprocessed/AAPL_day.csv
+2025-01-15 11:36:19,330:INFO:Calculated technical indicators and updated DataFrame.
+2025-01-15 11:36:19,331:ERROR:Feature engineering failed: Cannot save file into a non-existent directory: 'data_preprocessing'
+2025-01-15 13:17:50,132:ERROR:Raw data file data_ingestion\AAPL_day_raw.csv not found.
+2025-01-15 13:17:50,132:ERROR:Feature engineering failed: Raw data file data_ingestion\AAPL_day_raw.csv not found.
+2025-01-15 13:18:07,649:ERROR:Raw data file data_ingestion\AAPL_day.csv not found.
+2025-01-15 13:18:07,649:ERROR:Feature engineering failed: Raw data file data_ingestion\AAPL_day.csv not found.
+2025-01-15 13:18:47,425:ERROR:Raw data file data_ingestion\data_preprocessed\AAPL_day.csv not found.
+2025-01-15 13:18:47,425:ERROR:Feature engineering failed: Raw data file data_ingestion\data_preprocessed\AAPL_day.csv not found.
+2025-01-15 13:19:16,012:INFO:Loaded data from ..\data_ingestion\data_preprocessed\AAPL_day.csv
+2025-01-15 13:19:16,044:INFO:Calculated technical indicators and updated DataFrame.
+2025-01-15 13:19:16,060:ERROR:Feature engineering failed: Cannot save file into a non-existent directory: 'data_preprocessing'
+2025-01-15 13:20:08,135:INFO:Loaded data from ..\data_ingestion\data_preprocessed\AAPL_day.csv
+2025-01-15 13:20:08,166:INFO:Calculated technical indicators and updated DataFrame.
+2025-01-15 13:20:08,183:INFO:Saved enhanced data to ..\data_preprocessing\AAPL_day_features.csv
+2025-01-15 13:20:08,183:INFO:Feature engineering completed successfully.
