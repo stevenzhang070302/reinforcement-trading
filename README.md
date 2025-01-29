@@ -1,6 +1,6 @@
 # **AI Trading Agent**
 
-A simple AI trading agent using Alpaca Markets and Reinforcement Learning (RL). The agent is designed to make trading decisions based on market data, leveraging advanced algorithms and innovative methodologies to improve profitability and robustness. Recently, I saw a XiaoHongShu post on how someone was able to use Reinforcement Learning to make profitable trades, growing their portfolio from 90k to 110k. This reignited my interest in Algorithmic Trading and AI Trading, leading me to start this project.
+A simple AI trading agent using Alpaca Markets and Reinforcement Learning (RL). The agent is designed to make trading decisions based on market data, leveraging advanced algorithms and innovative methodologies to improve profitability and robustness. Recently, I saw a XiaoHongShu post on how someone was able to use Reinforcement Learning to make profitable trades, growing their portfolio from 90k to 110k in a month. This reignited my interest in Algorithmic Trading and AI Trading, leading me to start this project.
 
 ---
 
