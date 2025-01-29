@@ -62,7 +62,7 @@ def save_features(df, symbol="AAPL", timeframe="day"):
 
 def main():
     setup_logging()
-    symbol = "AAPL"
+    symbol = "SPY"
     timeframe = "day"
 
     try:

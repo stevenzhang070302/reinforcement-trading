@@ -1,0 +1,16 @@
+2025-01-23 18:49:48,234:INFO:Fetching day data for SPY from 2024-01-24 to 2025-01-23 (IEX feed)...
+2025-01-23 18:49:48,236:INFO:Using end_date: 2025-01-23
+2025-01-23 18:49:48,449:INFO:Successfully fetched data for SPY from 2024-01-24 to 2025-01-23 via IEX.
+2025-01-23 18:49:48,485:INFO:Data saved to data_preprocessed\SPY_day.csv
+2025-01-23 18:51:00,900:INFO:Fetching day data for SPY from 2020-01-25 to 2025-01-23 (IEX feed)...
+2025-01-23 18:51:00,902:INFO:Using end_date: 2025-01-23
+2025-01-23 18:51:01,093:INFO:Successfully fetched data for SPY from 2020-01-25 to 2025-01-23 via IEX.
+2025-01-23 18:51:01,147:INFO:Data saved to data_preprocessed\SPY_day.csv
+2025-01-23 18:51:55,610:INFO:Fetching day data for SPY from 2015-01-26 to 2025-01-23 (IEX feed)...
+2025-01-23 18:51:55,611:INFO:Using end_date: 2025-01-23
+2025-01-23 18:51:55,757:INFO:Successfully fetched data for SPY from 2015-01-26 to 2025-01-23 via IEX.
+2025-01-23 18:51:55,798:INFO:Data saved to data_preprocessed\SPY_day.csv
+2025-01-23 18:52:32,654:INFO:Fetching day data for SPY from 2020-01-25 to 2025-01-23 (IEX feed)...
+2025-01-23 18:52:32,656:INFO:Using end_date: 2025-01-23
+2025-01-23 18:52:32,795:INFO:Successfully fetched data for SPY from 2020-01-25 to 2025-01-23 via IEX.
+2025-01-23 18:52:32,830:INFO:Data saved to data_preprocessed\SPY_day.csv

@@ -219,13 +219,13 @@ def save_data(df, symbol, timeframe):
         print(f"Error saving data: {e}")
 
 def main():
-    symbol = "AAPL"
+    symbol = "SPY"
     timeframe = "day"  # 'minute', 'hour', or 'day'
 
     # 1-year date range with 15-min delay
     now_utc = datetime.utcnow()
     end_dt = now_utc - timedelta(minutes=15)
-    start_dt = end_dt - timedelta(days=365)
+    start_dt = end_dt - timedelta(days= 5 * 365)
 
     start_date_str = start_dt.strftime('%Y-%m-%d')  # 'YYYY-MM-DD'
     end_date_str = end_dt.strftime('%Y-%m-%d')      # For daily timeframe: 'YYYY-MM-DD'
