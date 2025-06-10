@@ -1,1 +1,80 @@
+# Config files with sensitive information
 config/config.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Model files and checkpoints
+*.pth
+*.zip
+**/models/
+**/checkpoints/
+rl_agent/rl_agent/models/
+rl_agent/models/
+
+# Logs and TensorBoard
+logs/
+**/logs/
+*.log
+runs/
+**/runs/
+tensorboard/
+**/tensorboard/
+logs_final/
+logs_optuna/
+**/logs_*/
+
+# Data files (usually too large for git)
+*.csv
+data/
+**/data/
+*.h5
+*.hdf5
+*.parquet
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large installation files
+*.sh
+Miniconda*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
